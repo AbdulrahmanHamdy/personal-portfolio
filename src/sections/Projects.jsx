@@ -23,7 +23,7 @@ const projects = [
     title: "AI Writing Assistant",
     description:
       "An intelligent writing tool powered by GPT-4, helping users create better content faster.",
-    image: "/projects/project3.png",
+    image: "/projects/project2.png",
     tags: ["React", "OpenAI", "Python", "FastAPI"],
     link: "#",
     github: "#",
