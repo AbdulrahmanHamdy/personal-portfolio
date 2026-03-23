@@ -2,7 +2,38 @@ import { ChevronLeft, ChevronRight, Quote } from "lucide-react";
 import { useState } from "react";
 
 const testimonials = [
-  
+  {
+    quote:
+      "",
+    author: "",
+    role: "CTO, Tech Innovators Inc.",
+    avatar:
+      "",
+  },
+  {
+    quote:
+      "",
+    author: "",
+    role: "Product Manager, Digital Solutions",
+    avatar:
+      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop",
+  },
+  {
+    quote:
+      "Pedro's expertise in React and TypeScript helped us rebuild our entire frontend in record time. His architectural decisions continue to pay dividends.",
+    author: "Emily Watson",
+    role: "Engineering Lead, StartUp Labs",
+    avatar:
+      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop",
+  },
+  {
+    quote:
+      "Not only is Pedro technically brilliant, but he's also a fantastic communicator and team player. He elevated everyone around him.",
+    author: "David Kim",
+    role: "CEO, Innovation Hub",
+    avatar:
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop",
+  },
 ];
 
 export const Testimonials = () => {
